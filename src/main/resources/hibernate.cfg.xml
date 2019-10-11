@@ -6,13 +6,13 @@
   <session-factory>
     <property name="connection.url">jdbc:postgresql://localhost:5432/audio</property>
     <property name="connection.driver_class">org.postgresql.Driver</property>
+    <property name="connection.username">postgres</property>
+    <property name="connection.password">postgres</property>
+    <property name="hbm2ddl.auto">update</property>
+
     <mapping class="audio.entities.AlbumEntity"/>
     <mapping class="audio.entities.SingerEntity"/>
     <mapping class="audio.entities.SongEntity"/>
-    <!-- <property name="connection.username"/> -->
-    <!-- <property name="connection.password"/> -->
 
-    <!-- DB schema will be updated if needed -->
-    <!-- <property name="hbm2ddl.auto">update</property> -->
   </session-factory>
 </hibernate-configuration>
