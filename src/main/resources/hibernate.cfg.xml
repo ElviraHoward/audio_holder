@@ -6,9 +6,9 @@
   <session-factory>
     <property name="connection.url">jdbc:postgresql://localhost:5432/audio</property>
     <property name="connection.driver_class">org.postgresql.Driver</property>
-    <mapping class="entities.AlbumEntity"/>
-    <mapping class="entities.SingerEntity"/>
-    <mapping class="entities.SongEntity"/>
+    <mapping class="audio.entities.AlbumEntity"/>
+    <mapping class="audio.entities.SingerEntity"/>
+    <mapping class="audio.entities.SongEntity"/>
     <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
 

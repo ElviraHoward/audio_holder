@@ -1,4 +1,4 @@
-package entities;
+package audio.entities;
 
 import org.hibernate.annotations.GenericGenerator;
 
